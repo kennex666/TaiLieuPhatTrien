@@ -88,7 +88,7 @@
 ```
 
 ### 2.4. Quản lý Dependencies
-- Sử dụng **npm** hoặc **yarn** để quản lý dependencies.
+- Sử dụng **npm** để quản lý dependencies.
 - Chỉ cài đặt dependencies thực sự cần thiết.
 
 ### 2.5. Kiểm tra Mã Nguồn
