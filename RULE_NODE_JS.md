@@ -5,7 +5,7 @@
 - Mục tiêu: Xây dựng ứng dụng Node.js chất lượng cao, dễ bảo trì và mở rộng.
 - Đối tượng: Lập trình viên JavaScript/TypeScript muốn phát triển ứng dụng Node.js chuyên nghiệp.
 - Tài liệu này giúp hiểu rõ cấu trúc thư mục, quy tắc viết mã nguồn và quy trình phát triển dự án Node.js.
-- Phiên bản hiện hành: 1.0.0-alpha
+- Phiên bản hiện hành: 1.0.1-alpha
 - Ngày cập nhật: 27/02/2025
 - Thuộc quyền sở hữu và biên soạn bởi [Dương Thái Bảo/Kennex](https://github.com/Kennex666).
 
@@ -107,10 +107,38 @@
 - Sử dụng **Postman** để kiểm thử API.
 
 ## 5. Quy trình Phát triển
-- **Mỗi tính năng mới** phải có một nhánh Git riêng.
-- **Commit rõ ràng**, dễ hiểu.
-- **Code phải được review** trước khi merge.
+### 5.1. Quy trịnh làm việc với Git
+1. Tạo nhánh (branch) mới cho mỗi tính năng hoặc sửa lỗi.
+2. Thực hiện các thay đổi và commit theo quy luật.
+3. Gửi yêu cầu hợp nhất (PR) mô tả rõ ràng những gì bạn đã thay đổi.
+4. Đợi đánh giá mã nguồn trước khi hợp nhất vào nhánh chính.
 
+### 5.2. Quy trình Review
+
+- Code Review Checklist:
+
+ [ ] Có tuân thủ Coding Convention không?
+
+ [ ] Có viết Unit Test đầy đủ không?
+
+ [ ] Code có dễ đọc và dễ bảo trì không?
+
+ [ ] Có tồn tại lỗi tiềm ẩn như NPE không?
+
+### 5.3. Template Pull Request
+
+Gợi ý template PR:
+```markdown
+## Mô tả thay đổi
+<!-- Mô tả chi tiết nội dung thay đổi -->
+
+## Hướng dẫn kiểm tra
+<!-- Hướng dẫn cách kiểm tra thay đổi -->
+
+## Liên quan đến issue nào không?
+- [ ] Không liên quan
+- [ ] Có liên quan: <!-- Đính kèm issue -->
+```
 
 ## 6. Được Ghi Nhớ
 - Luôn giữ mã nguồn sạch sẽ và có thể tái sử dụng.
